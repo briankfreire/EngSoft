@@ -1,0 +1,46 @@
+# --- Arquivos de Controle de Versão e IDEs ---
+.git
+.gitignore
+.hg
+.hgignore
+.svn
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Ambientes Virtuais e Dependências Locais ---
+.venv/
+env/
+venv/
+ENV/
+.env
+
+# --- Arquivos de Cache e Compilação Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# --- Documentação, Testes e CI/CD ---
+docs/
+tests/
+test/
+*.md
+LICENSE
+Dockerfile
+docker-compose*.yml
+.github/
+.gitlab-ci.yml
+
+# --- Arquivos de Sistema Operacional ---
+.DS_Store
+Thumbs.db
